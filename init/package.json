@@ -1,0 +1,23 @@
+{
+  "name": "init",
+  "version": "1.0.0",
+  "description": "Initializing CouchDB for EnactHub",
+  "main": "start.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node start.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/songhui/enacthub.git"
+  },
+  "author": "Hui Song",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/songhui/enacthub/issues"
+  },
+  "homepage": "https://github.com/songhui/enacthub#readme",
+  "dependencies": {
+    "nano": "^8.2.2"
+  }
+}

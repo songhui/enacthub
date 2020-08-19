@@ -1,0 +1,7 @@
+{
+    "type": "genesis.deployment",
+    "app": "test-integration-nodered",
+    "name": "geneis.nodered.localhost",
+    "licence": "Apache-2.0",
+    "attach": "genesis-localhost.model.json"
+}
