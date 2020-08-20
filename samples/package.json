@@ -1,0 +1,16 @@
+{
+  "name": "enacthub-sample-operations",
+  "version": "1.0.0",
+  "description": "Sample operations to register and download models",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.19.2",
+    "buffer": "^5.6.0",
+    "form-data": "^3.0.0"
+  }
+}
