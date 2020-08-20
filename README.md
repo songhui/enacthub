@@ -32,6 +32,7 @@ Content-Type: application/json
     "licence": "Apache-2.0"
 }
 ```
+
 Response:
 ```
 HTTP/1.1 200 OK
@@ -59,7 +60,26 @@ HTTP/1.1 200 OK
 
 {
   ok: true,
-  id: '536ad31bcd2f8f1e4da278414c01c700',
-  rev: '2-8aba4a2ac294df05bf8ae26650867657'
+  id: {id},
+  rev: {rev}
 }
 ```
+
+Examples in JavaScript can be found [here](samples/register.js)
+
+# Get registered artefacts
+
+No authorization is required.
+
+For meta-info
+```
+GET /public/{id}
+```
+
+For artefact
+```
+GET /public/{id}/model
+```
+
+# Query and Browse
+Coming soon...
